@@ -1,0 +1,32 @@
+.container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(360deg, rgb(90, 0, 128) 0%, #3c0f58 50%, #1e1e2f 95%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.content {
+    color: azure;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.link {
+    color: antiquewhite;
+    text-decoration: underline;
+    transition: all 0.2s ease-in;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.link:hover {
+    color: aquamarine;
+    border-color: aliceblue;
+}

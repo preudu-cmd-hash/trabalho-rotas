@@ -1,21 +1,22 @@
+import styles from "./Navbar.module.css";
 import { NavLink } from "react-router";
 
 export const Navbar = () => {
   return (
     <>
-      <div>
+      <div className={styles.container}>
         <NavLink
           to="home"
           className={({ isActive }) => (isActive ? "link-ativo" : "")}
         >
-          {({ isActive }) => (isActive ? "Home" : "Home")}
+          {({ isActive }) => (isActive ? "🏠 Home" : "Home")}
         </NavLink>
         <br />
         <NavLink
           to="details/coisa-feia"
           className={({ isActive }) => (isActive ? "link-ativo" : "")}
         >
-          {({ isActive }) => (isActive ? "Detalhes" : "Detalhes")}
+          {({ isActive }) => (isActive ? "🔍 Detalhes" : "Detalhes")}
         </NavLink>
       </div>
     </>

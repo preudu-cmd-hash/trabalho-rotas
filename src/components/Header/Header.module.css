@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25vh;
+    padding: 10px;
+    margin-bottom: 12px;
+    background: linear-gradient(rgb(90, 0, 128) 0%, #3c0f58 50%, #1e1e2f 95%);
+}
+
+.content {
+    color: azure;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

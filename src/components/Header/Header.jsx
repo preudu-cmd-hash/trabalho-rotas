@@ -1,8 +1,7 @@
 export const Header = () => {
   return (
-    <div>
-      <h1>Header</h1>
-      <p>Esse é um header</p>
+    <div className={styles.headerContainer}>
+      <h1 className={styles.header}>Trabalho utilizando Router</h1>
     </div>
   );
 };

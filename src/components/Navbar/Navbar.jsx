@@ -12,7 +12,7 @@ export const Navbar = () => {
         </NavLink>
         <br />
         <NavLink
-          to="details"
+          to="details/coisa-feia"
           className={({ isActive }) => (isActive ? "link-ativo" : "")}
         >
           {({ isActive }) => (isActive ? "Detalhes" : "Detalhes")}

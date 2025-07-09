@@ -7,8 +7,6 @@ export const Header = () => {
     <div>
       <h1>Trabalho utilizando Router</h1>
       <Navbar />
-      <Outlet />
-      <Footer />
     </div>
   );
 };

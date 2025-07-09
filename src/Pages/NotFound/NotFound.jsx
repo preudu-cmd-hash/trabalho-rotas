@@ -6,7 +6,6 @@ export const NotFound = () => {
       <div>
         <h1>Nada pra ver por aqui</h1>
       </div>
-      <Navbar />
     </>
   );
 };

@@ -3,9 +3,9 @@ import { NavLink } from "react-router";
 export const Navbar = () => {
   return (
     <>
-      <div className={styles.navBarContainer}>
+      <div>
         <NavLink
-          to="/"
+          to="home"
           className={({ isActive }) => (isActive ? "link-ativo" : "")}
         >
           {({ isActive }) => (isActive ? "Home" : "Home")}

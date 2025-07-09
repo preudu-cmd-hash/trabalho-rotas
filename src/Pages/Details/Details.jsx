@@ -4,7 +4,6 @@ export const Details = () => {
   return (
     <div>
       <h1>Tchau</h1>
-      <Navbar />
     </div>
   );
 };

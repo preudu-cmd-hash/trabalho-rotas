@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from "react-router";
+import { useNavigate, useParams } from "react-router-dom";
 import styles from "./Details.module.css";
 
 export const Details = () => {

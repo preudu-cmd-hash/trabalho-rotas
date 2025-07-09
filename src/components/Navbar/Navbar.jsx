@@ -4,7 +4,7 @@ import { NavLink } from "react-router";
 export const Navbar = () => {
   return (
     <>
-      <div>
+      <div className={styles.container}>
         <NavLink
           to="details/coisa-feia"
           className={({ isActive }) => (isActive ? "link-ativo" : "")}

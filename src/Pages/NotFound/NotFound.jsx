@@ -1,10 +1,10 @@
-import { Navbar } from "../../components/Navbar/Navbar";
+import styles from "./NotFound.module.css";
 
 export const NotFound = () => {
   return (
     <>
-      <div>
-        <h1>Nada pra ver por aqui</h1>
+      <div className={styles.container}>
+        <h1>Clique em "Home" no cabeçalho para acessar o site</h1>
       </div>
     </>
   );

@@ -25,10 +25,10 @@ export const Home = () => {
     <>
       <div>
         <form onSubmit={handleSubmit}>
-          <label htmlFor="name">Nome do produto</label>
+          <label htmlFor="name">Nome do produto: </label>
           <input type="text" name="name" onChange={handleChange} />
           <br />
-          <label htmlFor="message">Id do produto</label>
+          <label htmlFor="message">Id do produto: </label>
           <input type="text" name="message" onChange={handleChange} />
           <button type="submit">Enviar</button>
         </form>

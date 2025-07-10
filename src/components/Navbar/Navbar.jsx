@@ -1,12 +1,12 @@
 import styles from "./Navbar.module.css";
-import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router";
 
 export const Navbar = () => {
   return (
     <>
       <div className={styles.container}>
         <NavLink
-          to="home"
+          to="/"
           className={({ isActive }) => (isActive ? "link-ativo" : "")}
         >
           {({ isActive }) => (isActive ? "🏠 Home" : "Home")}

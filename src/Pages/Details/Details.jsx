@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router";
 import styles from "./Details.module.css";
 
 export const Details = () => {
@@ -7,7 +7,7 @@ export const Details = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate("/home");
+    navigate("/");
   };
 
   return (
